@@ -46,7 +46,7 @@ for (let i = 0; i < 200; i++) {
 function animate() {
   requestAnimationFrame(animate);
 
-  controls.update();
+  // controls.update();
 
   renderer.render(scene, camera);
 }
